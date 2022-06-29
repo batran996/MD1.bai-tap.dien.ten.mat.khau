@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+    let nhapTen = prompt("Nhập tên từ bàn phím");
+    if (nhapTen == "admin"){
+        let matKhau = prompt("nhập mật khẩu")
+        if (matKhau == "TheMaster"){
+            alert("Wellcome")
+        }else {
+            if (matKhau == "null"){
+                alert("Caneled")
+            }else {
+                alert("wrong password")
+            }
+        }
+    }else {
+        if (nhapTen == "null"){
+            alert("caneled")
+        }else {
+            alert("I don't know you")
+        }
+    }
+</script>
+</body>
+</html>
